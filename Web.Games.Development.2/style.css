@@ -112,10 +112,12 @@ nav{
     justify-content: center;
     align-items: center;
     color: #21e6c1;
+    border-bottom: 1px solid #21e6c1;
 }
 
 .intro-text1, .intro-text2, .intro-text3, .intro-text4{
-    width: 30%;
+    width: 70%;
+    font-size: 25px;
     opacity: 0;
     transform: translateY(20px);
     transition: all 0.5s ease-in-out;
@@ -124,4 +126,19 @@ nav{
 .intro-appear{
     opacity: 1;
     transform: translateY(0px);
+}
+
+p, h2{
+    height: 6vh;
+}
+
+.button{
+    background-color: #071e3d;
+    border: 1px solid #21e6c1;
+    color: #21e6c1;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
 }
