@@ -146,7 +146,7 @@ var config = {
       this.physics.world.wrap(this.ship, 5);
     }
     if(this.ball){
-      this.ball.setAngularVelocity(Math.random(0, -50) * 50);
+      this.ball.setAngularVelocity(50);
       this.physics.velocityFromRotation(this.ball.rotation + 1.5, 100, this.ball.body.acceleration);
       this.physics.world.wrap(this.ball, 5);
       //emit ball movement
