@@ -11,6 +11,6 @@
   "dependencies": {
     "socket.io": "*",
     "express": "*",
-    "npm": "^6.13.7"
+    "npm": "^6.14.6"
   }
 }
